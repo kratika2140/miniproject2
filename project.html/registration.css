@@ -1,0 +1,150 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+header{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding:20px 100px ;
+    display: flex;
+    justify-content: space-between;
+    background:rgba(122, 98, 154, 0.57);
+    align-items: center;
+    z-index: 99;
+}
+
+.logo{
+    font-size:1.5em;
+    color: white;
+    user-select: none;
+    text-decoration: none;
+}
+ 
+.navigation a {
+    position: relative;
+    font-size: 1.1 em;
+    color:#fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px ;
+}
+
+.navigation .btnlogin{
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid white;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .5s;
+}
+.navigation .btnlogin:hover{
+    background-color: white;
+    color: darkgrey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    justify-content: center;
+    margin: 100px;
+    margin-top: 250px;
+    margin-bottom: 250px;
+    background-image: url("imagess/img4.jfif");
+    background-size: cover;
+    background-position: center;
+    margin-left: 30px;
+    overflow: hidden;
+    
+    
+}
+.caption{
+    padding: 30px;
+    color:white;
+    font-size: xx-large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(8, 65, 111, 0.562);
+    
+}
+.table{
+    background-color: rgba(8, 65, 111, 0.562);
+    margin-left: 400PX;
+    color: white;
+    height: 300px;
+    width: 700px;
+    padding-left: 70px;
+}
+input{
+    width: 350px;
+}
+select{
+    width: 350px;
+}
+    
+
+.submit{
+    padding:4px;
+    text-align: center;
+    border-radius: unset;
+    font-size: large;
+    border-color: turquoise;
+}
+.subbtn{
+    width: 100px;
+    height: 20px;
+    cursor: pointer;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.back{
+    width: 100px;
+    height: 20px;
+    cursor: pointer;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+p{
+    text-align: center;
+    font-size: 30px;
+    color: wheat;
+    margin-top: 20px;
+    margin-left: 170px;
+}
+.regis{
+    color:white;
+}

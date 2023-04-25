@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="registration.css">
+</head>
+<body>
+    <header>
+        <h2><a href="https://glauniversity.in:8085/Main/Index" class="logo"> GLA UNIVERSITY</a></h2>
+    <nav class="navigation">
+        <a href="about.html">ABOUT</a>
+        <a href="services.html">SERVICES</a>
+        <a href="halfevent.html">CLUBS</a>
+        <a href="contact.html">CONTACT</a>
+        <a href="registration.html"><button class="btnlogin">REGISTER</button></a>
+    
+    </nav>
+    </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- registration page  -->
+    <!-- <form action="registration.php" method="post"> -->
+        <from>
+        <table align="center" class="table">
+            <caption class="caption">REGISTRATION PAGE</caption>
+            <div class="tr">
+            <tr>
+                <td>
+                    <label>FULL NAME</label>
+                    <input type="text" name="uname" placeholder="xyz" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>BRANCH</label>
+                    <select name="branch" required>
+                        <option value="B.TECH">B.TECH</option>
+                        <option value="B.COM">B.COM</option>
+                        <option value="B.COM(HONS)">B.COM(HONS)</option>
+                        <option value="BSC">BSC</option>
+                        <option value="B.PHARM">B.PHARM</option>
+                        <option value="D.PHARMA">D.PHARMA</option>
+                        <option value="BBA">BBA</option>
+                        <option value="OTHER">OTHER</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>EMAIL</label>
+                    <input type="email" name="email" id="maildata" placeholder="xy.z12@gla.ac.in" pattern="{a-z}{0-9}[20]{@}{gla}" required >
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label> UNIVERSITY ROLL NO.</label>
+                    <input type= number name="roll" id="number" placeholder="123456789" required pattern="[9]" >
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>PASSWORD</label>
+                    <input type="password" name="pass" id="unique" required >
+                </td>
+            </tr>
+            </div>
+            <tr>
+                <td>
+                    <div class="submit">
+                    <a href="login.html"><input class="subbtn" type="submit" name="save"></a>
+                    <a href="home.html"><button class="back">BACK</button></a>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <p>Already have an account ? <a href="login.html" class="regis">LOGIN</a></p>
+</body>
+</html>
